@@ -11,13 +11,6 @@
 </template>
 
 <script>
-    import Vue from 'vue'
-    import DropdownMenu from './menu'
-    import DropdownItem from './item'
-
-    Vue.component('DropdownMenu', DropdownMenu)
-    Vue.component('DropdownItem', DropdownItem)
-
     let instances = []
 
     document.addEventListener('click', () => {
