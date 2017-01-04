@@ -1,9 +1,9 @@
-import DropdownMeu from './menu'
+import DropdownMenu from './menu'
 import DropdownItem from './item'
 import Dropdown from './index.vue'
 
 export {
     Dropdown,
-    DropdownMeu,
+    DropdownMenu,
     DropdownItem
 }
