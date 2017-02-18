@@ -330,7 +330,7 @@ function getScrollParent(element) {
         isOverflowY = void 0;
 
     if (element === document) {
-        return window;
+        return document.body;
     }
 
     scroll = ['scroll', 'auto'];

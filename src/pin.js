@@ -258,7 +258,7 @@ function getScrollParent(element) {
     let scroll, isOverflow, isOverflowX, isOverflowY
 
     if (element === document) {
-        return window
+        return document.body
     }
 
     scroll = ['scroll', 'auto']
